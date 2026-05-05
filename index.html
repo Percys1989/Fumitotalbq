@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FumiTotal Servicios BQ – Fumigación y Control de Plagas en Barranquilla</title>
+    <meta name="description"
+        content="FumiTotal Servicios BQ: empresa de fumigación y control de plagas en Barranquilla. Cucarachas, roedores, zancudos, lavado de tanques y desinfección. ¡Cotiza ya!">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;900&family=Nunito:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/styleindex.css">
+    <base href="./">
+</head>
+
+<body>
+
+    <!-- WHATSAPP FLOAT -->
+    <a class="wa-float"
+        href="https://wa.me/573002945139?text=Hola%2C%20quiero%20cotizar%20un%20servicio%20de%20fumigación"
+        target="_blank" title="Escríbenos por WhatsApp">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="30" height="30" fill="white">
+            <path
+                d="M24 4C13 4 4 13 4 24c0 3.6 1 7 2.7 10L4 44l10.3-2.7C17.1 43 20.5 44 24 44c11 0 20-9 20-20S35 4 24 4zm0 36c-3.1 0-6.1-.8-8.7-2.4l-.6-.4-6.1 1.6 1.6-5.9-.4-.6C8.8 30.1 8 27.1 8 24 8 15.2 15.2 8 24 8s16 7.2 16 16-7.2 16-16 16zm8.7-11.8c-.5-.2-2.8-1.4-3.2-1.5-.4-.2-.7-.2-1 .2-.3.5-1.2 1.5-1.5 1.8-.3.3-.5.3-1 .1-.5-.2-2-.7-3.8-2.3-1.4-1.2-2.3-2.8-2.6-3.2-.3-.5 0-.7.2-.9.2-.2.5-.5.7-.7.2-.2.3-.5.4-.8.1-.3 0-.6-.1-.8-.1-.2-1-2.5-1.4-3.4-.4-.9-.8-.8-1-.8h-.9c-.3 0-.8.1-1.2.6-.4.5-1.6 1.6-1.6 3.8s1.7 4.4 1.9 4.7c.2.3 3.3 5.1 8 7.1 1.1.5 2 .8 2.7 1 1.1.3 2.2.3 3 .2.9-.1 2.8-1.1 3.2-2.2.4-1.1.4-2 .3-2.2-.2-.2-.5-.3-1-.5z" />
+        </svg>
+    </a>
+
+    <!-- HEADER -->
+    <header id="header">
+        <a class="logo" href="#">
+            <img src="./imagenes/logo-desktop.png" alt="FumiTotal Servicios BQ" class="logo-desktop">
+            <img src="./imagenes/logo-mobile.png" alt="FumiTotal Servicios BQ" class="logo-mobile">
+        </a>
+        <nav>
+            <a href="#servicios">Servicios</a>
+            <a href="#precios">Precios</a>
+            <a href="#cobertura">Cobertura</a>
+            <a href="#faq">FAQ</a>
+            <a href="#contacto">Contacto</a>
+            <a class="btn-wa"
+                href="https://wa.me/573002945139?text=Hola%2C%20quiero%20cotizar%20un%20servicio%20de%20fumigación"
+                target="_blank">
+                💬 WhatsApp
+            </a>
+        </nav>
+        <div class="hamburger" id="hamburger" onclick="toggleMenu()">
+            <span></span><span></span><span></span>
+        </div>
+    </header>
+
+    <!-- MOBILE NAV -->
+    <div class="mobile-nav" id="mobileNav">
+        <a href="#servicios" onclick="closeMenu()">Servicios</a>
+        <a href="#precios" onclick="closeMenu()">Precios</a>
+        <a href="#cobertura" onclick="closeMenu()">Cobertura</a>
+        <a href="#faq" onclick="closeMenu()">FAQ</a>
+        <a href="#contacto" onclick="closeMenu()">Contacto</a>
+        <a href="https://wa.me/573002945139" target="_blank" style="color:#25D366;">💬 WhatsApp</a>
+    </div>
+
+    <!-- BANNER DESCUENTO -->
+    <div class="descuento-banner">
+        <span class="descuento-fire">🔥</span>
+        <p>¡Aprovecha ahora! <strong>10% de descuento</strong> por tiempo limitado en todos nuestros servicios</p>
+        <a href="https://wa.me/573002945139?text=Hola%2C%20quiero%20el%2010%25%20de%20descuento"
+            target="_blank">Reclamar descuento →</a>
+    </div>
+
+    <!-- HERO -->
+    <section class="hero" id="inicio">
+
+        <!-- SLIDER (FONDO) -->
+        <div class="hero-slider" id="heroSlider">
+            <div class="hero-slide active" style="background-image:url('./imagenes/hero-general.png');"></div>
+            <div class="hero-slide" style="background-image:url('./imagenes/hero-hogar.png');"></div>
+            <div class="hero-slide" style="background-image:url('./imagenes/hero-empresas.png');"></div>
+        </div>
+
+        <!-- OVERLAY -->
+        <div class="hero-overlay"></div>
+
+        <!-- CONTENIDO -->
+        <div class="hero-content" id="heroContent">
+            <div class="hero-badge">⭐ N°1 en Barranquilla</div>
+
+            <h1>
+                ¡Elimina las plagas
+                <span>hoy mismo!</span>
+            </h1>
+
+            <p class="hero-slogan">Protegemos lo que más importa</p>
+
+            <p>
+                Servicio profesional de fumigación para hogares, empresas e industrias.
+                Protección garantizada contra cucarachas, roedores, zancudos y más.
+            </p>
+
+            <div class="hero-ctas">
+                <a class="btn-primary"
+                    href="https://wa.me/573002945139?text=Hola%2C%20quiero%20cotizar%20un%20servicio%20de%20fumigación"
+                    target="_blank">
+                    💬 Cotizar por WhatsApp
+                </a>
+                <a class="btn-outline" href="#servicios">Ver servicios →</a>
+            </div>
+
+            <!-- PILARES -->
+            <div class="hero-pilares">
+                <div class="pilar-item">🛡️ <span>Productos seguros para tu familia</span></div>
+                <div class="pilar-item">🎯 <span>Eliminación efectiva y duradera</span></div>
+                <div class="pilar-item">⭐ <span>Servicio garantizado 100%</span></div>
+            </div>
+        </div>
+
+        <!-- DOTS -->
+        <div class="slider-dots">
+            <span class="dot active"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+
+    </section>
+
+    <!-- CTA STRIP -->
+    <div class="cta-strip">
+        <p>🔥 ¡Solicita tu cotización GRATIS hoy mismo!</p>
+        <a class="btn-wa-large"
+            href="https://wa.me/573002945139?text=Hola%2C%20quiero%20cotizar%20un%20servicio%20de%20fumigación"
+            target="_blank">
+            💬 Escribir por WhatsApp
+        </a>
+    </div>
+
+    <!-- VALORES DE MARCA -->
+    <div class="valores-strip">
+        <div class="valor-item">
+            <span class="valor-icon">🏆</span>
+            <div>
+                <strong>Experiencia</strong>
+                <span>+15 años en el sector</span>
+            </div>
+        </div>
+        <div class="valor-item">
+            <span class="valor-icon">🤝</span>
+            <div>
+                <strong>Confianza</strong>
+                <span>+500 clientes satisfechos</span>
+            </div>
+        </div>
+        <div class="valor-item">
+            <span class="valor-icon">⚡</span>
+            <div>
+                <strong>Rapidez</strong>
+                <span>Atención rápida y efectiva</span>
+            </div>
+        </div>
+        <div class="valor-item">
+            <span class="valor-icon">🌿</span>
+            <div>
+                <strong>Cuidamos tu entorno</strong>
+                <span>Responsables con el medio ambiente</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- SERVICIOS -->
+    <section class="servicios" id="servicios">
+        <div class="section-label">Lo que hacemos</div>
+        <h2 class="section-title">Nuestros Servicios</h2>
+        <p class="section-sub">Soluciones integrales de control de plagas para hogares, empresas e industrias en
+            Barranquilla y el Atlántico.</p>
+        <div class="services-carousel">
+            <div class="services-track" id="servicesTrack">
+                <div class="service-card">
+                    <div class="service-icon">🪳</div>
+                    <h3>Control de Cucarachas</h3>
+                    <p>Eliminación efectiva de cucarachas en cocinas, restaurantes y hogares con productos seguros.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🐀</div>
+                    <h3>Control de Roedores</h3>
+                    <p>Trampas y rodenticidas profesionales para ratas y ratones sin poner en riesgo a tus mascotas.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🦟</div>
+                    <h3>Control de Zancudos</h3>
+                    <p>Fumigación contra mosquitos y zancudos, previniendo dengue, zika y chikungunya.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🪰</div>
+                    <h3>Control de Moscas</h3>
+                    <p>Sistemas de atracción y eliminación de moscas para negocios de alimentos e industrias.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🐜</div>
+                    <h3>Control de Hormigas</h3>
+                    <p>Tratamientos específicos por especie para eliminar colonias de hormigas de raíz.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🪲</div>
+                    <h3>Control de Termitas</h3>
+                    <p>Protección de estructuras de madera contra comejenes y termitas subterráneas.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">💧</div>
+                    <h3>Lavado de Tanques</h3>
+                    <p>Limpieza y desinfección de tanques de agua potable con certificado incluido.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🧴</div>
+                    <h3>Desinfección de Ambientes</h3>
+                    <p>Nebulización y sanitización de espacios para ambientes 100% seguros e higiénicos.</p>
+                </div>
+                <!-- Duplicado para loop infinito -->
+                <div class="service-card">
+                    <div class="service-icon">🪳</div>
+                    <h3>Control de Cucarachas</h3>
+                    <p>Eliminación efectiva de cucarachas en cocinas, restaurantes y hogares con productos seguros.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🐀</div>
+                    <h3>Control de Roedores</h3>
+                    <p>Trampas y rodenticidas profesionales para ratas y ratones sin poner en riesgo a tus mascotas.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🦟</div>
+                    <h3>Control de Zancudos</h3>
+                    <p>Fumigación contra mosquitos y zancudos, previniendo dengue, zika y chikungunya.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🪰</div>
+                    <h3>Control de Moscas</h3>
+                    <p>Sistemas de atracción y eliminación de moscas para negocios de alimentos e industrias.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🐜</div>
+                    <h3>Control de Hormigas</h3>
+                    <p>Tratamientos específicos por especie para eliminar colonias de hormigas de raíz.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🪲</div>
+                    <h3>Control de Termitas</h3>
+                    <p>Protección de estructuras de madera contra comejenes y termitas subterráneas.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">💧</div>
+                    <h3>Lavado de Tanques</h3>
+                    <p>Limpieza y desinfección de tanques de agua potable con certificado incluido.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🧴</div>
+                    <h3>Desinfección de Ambientes</h3>
+                    <p>Nebulización y sanitización de espacios para ambientes 100% seguros e higiénicos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PRECIOS -->
+    <section class="precios" id="precios">
+        <div class="section-label">Tarifas</div>
+        <h2 class="section-title">Precios de Fumigación</h2>
+        <p class="section-sub">Tarifas competitivas con la mejor calidad del mercado. Los precios varían según el área,
+            el tipo de plaga y la frecuencia del servicio.</p>
+
+        <!-- BADGE DESCUENTO -->
+        <div class="descuento-promo">
+            🏷️ <strong>¡10% de descuento</strong> por tiempo limitado! Menciona este aviso al cotizar.
+        </div>
+
+        <div class="precios-grid">
+            <div class="precio-card">
+                <h3>Apartamentos</h3>
+                <div class="precio-amount"><sup>$</sup>100.000<small> + IVA</small></div>
+                <p class="precio-desc">Precio inicial para apartamentos. Varía según el área y tipo de plaga.</p>
+                <ul class="precio-list">
+                    <li>Cucarachas y hormigas</li>
+                    <li>Mosquitos y zancudos</li>
+                    <li>Roedores básico</li>
+                    <li>Certificado de servicio</li>
+                </ul>
+                <a class="btn-primary"
+                    href="https://wa.me/573002945139?text=Hola%2C%20quiero%20cotizar%20fumigación%20para%20apartamento"
+                    target="_blank" style="justify-content:center; font-size:14px;">Cotizar</a>
+            </div>
+            <div class="precio-card featured">
+                <div class="precio-badge">⭐ Más solicitado</div>
+                <h3>Casas</h3>
+                <div class="precio-amount"><sup>$</sup>160.000<small> + IVA</small></div>
+                <p class="precio-desc">Para casas según afectación. Incluye visita de diagnóstico sin costo.</p>
+                <ul class="precio-list">
+                    <li>Diagnóstico sin costo</li>
+                    <li>Todas las plagas</li>
+                    <li>Plan personalizado</li>
+                    <li>Certificado incluido</li>
+                    <li>Garantía de resultado</li>
+                </ul>
+                <a class="btn-primary"
+                    href="https://wa.me/573002945139?text=Hola%2C%20quiero%20cotizar%20fumigación%20para%20casa"
+                    target="_blank" style="justify-content:center; font-size:14px;">Cotizar ahora</a>
+            </div>
+            <div class="precio-card">
+                <h3>Comercial / Industrial</h3>
+                <div class="precio-amount" style="font-size:30px;">A medida</div>
+                <p class="precio-desc">Para bodegas, restaurantes, oficinas, plantas industriales y grandes superficies.
+                </p>
+                <ul class="precio-list">
+                    <li>Visita técnica gratis</li>
+                    <li>Manejo integrado de plagas</li>
+                    <li>Normas INVIMA</li>
+                    <li>Informes técnicos</li>
+                    <li>Soporte continuo</li>
+                </ul>
+                <a class="btn-primary"
+                    href="https://wa.me/573002945139?text=Hola%2C%20quiero%20cotizar%20fumigación%20comercial%20o%20industrial"
+                    target="_blank" style="justify-content:center; font-size:14px;">Solicitar visita gratis</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- VENTAJAS -->
+    <section class="ventajas" id="nosotros">
+        <div class="section-label">¿Por qué elegirnos?</div>
+        <h2 class="section-title">Ventajas de<br>FumiTotal Servicios BQ</h2>
+        <p class="section-sub">Más de 15 años de experiencia nos respaldan. Somos la empresa de fumigación de confianza
+            en Barranquilla.</p>
+        <div class="ventajas-grid">
+            <div class="ventaja-item">
+                <div class="ventaja-num">01</div>
+                <div>
+                    <h4>Empresa legalmente constituida</h4>
+                    <p>Avalada por la Secretaría de Salud Distrital de Barranquilla para la prestación de servicios de
+                        fumigación.</p>
+                </div>
+            </div>
+            <div class="ventaja-item">
+                <div class="ventaja-num">02</div>
+                <div>
+                    <h4>+15 años de experiencia</h4>
+                    <p>Amplia trayectoria en el control de plagas residencial, comercial e industrial en el Caribe
+                        colombiano.</p>
+                </div>
+            </div>
+            <div class="ventaja-item">
+                <div class="ventaja-num">03</div>
+                <div>
+                    <h4>Productos seguros para tu familia</h4>
+                    <p>Usamos productos de última generación, certificados y seguros para personas, mascotas y el medio
+                        ambiente.</p>
+                </div>
+            </div>
+            <div class="ventaja-item">
+                <div class="ventaja-num">04</div>
+                <div>
+                    <h4>Personal capacitado y certificado</h4>
+                    <p>Técnicos certificados con equipos de protección y pólizas de responsabilidad civil.</p>
+                </div>
+            </div>
+            <div class="ventaja-item">
+                <div class="ventaja-num">05</div>
+                <div>
+                    <h4>Eliminación efectiva y duradera</h4>
+                    <p>Trabajamos directamente con nuestros clientes, sin subcontrataciones que afecten la calidad.</p>
+                </div>
+            </div>
+            <div class="ventaja-item">
+                <div class="ventaja-num">06</div>
+                <div>
+                    <h4>Servicio garantizado 100% confiable</h4>
+                    <p>Si la plaga regresa dentro del periodo de garantía, volvemos sin costo adicional.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTORES -->
+    <section class="sectores" id="sectores">
+        <div class="section-label">A quiénes servimos</div>
+        <h2 class="section-title">Sectores que atendemos</h2>
+        <p class="section-sub">Prestamos servicios de fumigación para todo tipo de espacios en Barranquilla y el
+            departamento del Atlántico.</p>
+        <div class="sectores-grid">
+            <div class="sector-card">
+                <div class="icon">🏠</div>
+                <h4>Residencial</h4>
+            </div>
+            <div class="sector-card">
+                <div class="icon">🏪</div>
+                <h4>Comercial</h4>
+            </div>
+            <div class="sector-card">
+                <div class="icon">🏭</div>
+                <h4>Industrial</h4>
+            </div>
+            <div class="sector-card">
+                <div class="icon">🍽️</div>
+                <h4>Alimentos</h4>
+            </div>
+            <div class="sector-card">
+                <div class="icon">🏥</div>
+                <h4>Institucional</h4>
+            </div>
+            <div class="sector-card">
+                <div class="icon">🌾</div>
+                <h4>Agroindustrial</h4>
+            </div>
+            <div class="sector-card">
+                <div class="icon">🚌</div>
+                <h4>Transporte</h4>
+            </div>
+            <div class="sector-card">
+                <div class="icon">🏗️</div>
+                <h4>Construcción</h4>
+            </div>
+        </div>
+    </section>
+
+    <!-- COBERTURA -->
+    <section class="cobertura" id="cobertura">
+        <div class="section-label">Zona de atención</div>
+        <h2 class="section-title">Cobertura en<br>Barranquilla y el Atlántico</h2>
+        <div class="cobertura-inner">
+            <div class="cobertura-map">
+                <div class="map-icon">🗺️</div>
+                <h3>Barranquilla y Área Metropolitana</h3>
+                <p>Atendemos toda la ciudad y municipios del departamento del Atlántico con disponibilidad de lunes a
+                    sábado.</p>
+            </div>
+            <div class="cobertura-list">
+                <h3>Municipios que cubrimos</h3>
+                <div class="zona-item">Barranquilla (todas las localidades)</div>
+                <div class="zona-item">Soledad, Malambo, Puerto Colombia, Galapa</div>
+                <div class="zona-item">Tubará, Baranoa, Polonuevo, Santo Tomás</div>
+                <div class="zona-item">Sabana Grande, Palmar de Varela, Ponedera</div>
+                <div class="zona-item">Sabanalarga, Luruaco, Repelón, Manatí</div>
+                <div class="zona-item">Juan de Acosta, Usiacurí, Piojó</div>
+                <div class="zona-item">Candelaria, Campo de la Cruz, Santa Lucía</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIOS -->
+    <section class="testimonios" id="testimonios">
+        <div class="section-label">Clientes satisfechos</div>
+        <h2 class="section-title">¿Qué dicen nuestros clientes?</h2>
+        <p class="section-sub">Más de 500 hogares y empresas en Barranquilla confían en FumiTotal Servicios BQ.</p>
+        <div class="testimonios-grid">
+            <div class="testimonio-card">
+                <div class="stars">★★★★★</div>
+                <p>Excelente servicio, puntual y muy efectivo. En menos de 24 horas no había rastro de cucarachas en mi
+                    restaurante. Los recomiendo 100%.</p>
+                <div class="testimonio-author">
+                    <div class="author-avatar">M</div>
+                    <div class="author-info">
+                        <strong>María González</strong>
+                        <span>Restaurante en el Centro</span>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonio-card">
+                <div class="stars">★★★★★</div>
+                <p>Muy profesionales. Vinieron a hacernos el lavado de tanque y la fumigación del almacén. El personal
+                    muy amable y con todos los implementos.</p>
+                <div class="testimonio-author">
+                    <div class="author-avatar">C</div>
+                    <div class="author-info">
+                        <strong>Carlos Méndez</strong>
+                        <span>Bodega en Soledad</span>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonio-card">
+                <div class="stars">★★★★★</div>
+                <p>Teníamos un problema grave de ratones en la oficina. FumiTotal resolvió todo en un solo servicio y
+                    nos dieron garantía escrita. ¡Súper!</p>
+                <div class="testimonio-author">
+                    <div class="author-avatar">L</div>
+                    <div class="author-info">
+                        <strong>Laura Vargas</strong>
+                        <span>Oficina en el Norte</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq" id="faq">
+        <div class="section-label">Preguntas frecuentes</div>
+        <h2 class="section-title">¿Tienes dudas?</h2>
+        <p class="section-sub">Respondemos las preguntas más comunes sobre nuestros servicios de fumigación en
+            Barranquilla.</p>
+        <div class="faq-grid">
+            <div class="faq-item">
+                <button class="faq-question" onclick="toggleFaq(this)">
+                    ¿Cuánto cuesta un servicio de fumigación en Barranquilla?
+                    <span class="faq-arrow">▼</span>
+                </button>
+                <div class="faq-answer">
+                    Los apartamentos inician desde $100.000 + IVA y las casas desde $160.000 + IVA según afectación.
+                    Para sectores comerciales e industriales realizamos una visita de diagnóstico sin costo para darte
+                    una cotización exacta. Actualmente tenemos un 10% de descuento por tiempo limitado.
+                </div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" onclick="toggleFaq(this)">
+                    ¿Debo desalojar la casa durante la fumigación?
+                    <span class="faq-arrow">▼</span>
+                </button>
+                <div class="faq-answer">
+                    En la mayoría de los casos se recomienda desalojar el espacio durante 2 a 4 horas. Nuestro técnico
+                    te informará exactamente qué medidas tomar antes y después del servicio para garantizar tu seguridad
+                    y la de tu familia.
+                </div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" onclick="toggleFaq(this)">
+                    ¿Los productos son seguros para mascotas y niños?
+                    <span class="faq-arrow">▼</span>
+                </button>
+                <div class="faq-answer">
+                    Sí. Utilizamos productos certificados, ecoamigables y aprobados por autoridades sanitarias. Son
+                    seguros para humanos y mascotas una vez transcurrido el tiempo de ventilación recomendado por
+                    nuestro técnico.
+                </div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" onclick="toggleFaq(this)">
+                    ¿Con qué frecuencia debo fumigar?
+                    <span class="faq-arrow">▼</span>
+                </button>
+                <div class="faq-answer">
+                    Para hogares se recomienda cada 3 a 6 meses de forma preventiva. Para negocios de alimentos y
+                    empresas, lo ideal es un plan mensual o bimestral. Nuestro equipo te asesorará según tus necesidades
+                    específicas.
+                </div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" onclick="toggleFaq(this)">
+                    ¿Emiten certificado de fumigación?
+                    <span class="faq-arrow">▼</span>
+                </button>
+                <div class="faq-answer">
+                    Sí. Emitimos certificado de fumigación avalado por la Secretaría de Salud, válido para trámites ante
+                    el INVIMA, visitas de inspección sanitaria y gestión de locales comerciales.
+                </div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" onclick="toggleFaq(this)">
+                    ¿Cuánto tiempo tarda el servicio?
+                    <span class="faq-arrow">▼</span>
+                </button>
+                <div class="faq-answer">
+                    Un servicio residencial estándar dura entre 45 minutos y 2 horas. Los servicios comerciales e
+                    industriales varían según el tamaño del área. Te informamos el tiempo exacto al momento de cotizar.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section class="contacto" id="contacto">
+        <div class="contacto-inner">
+            <div>
+                <div class="section-label">Escríbenos</div>
+                <h2 class="section-title">Contáctanos</h2>
+                <p class="section-sub">Estamos listos para atenderte. Solicita tu cotización gratis hoy mismo.</p>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-item-icon">📱</div>
+                        <div>
+                            <strong style="color:white; display:block; margin-bottom:2px;">WhatsApp / Celular</strong>
+                            <span>300 294 5139</span>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-item-icon">📷</div>
+                        <div>
+                            <strong style="color:white; display:block; margin-bottom:2px;">Instagram</strong>
+                            <a href="https://www.instagram.com/fumitotalserviciosbq" target="_blank"
+                                style="color:var(--celeste);">@fumitotalserviciosbq</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-item-icon">📍</div>
+                        <div>
+                            <strong style="color:white; display:block; margin-bottom:2px;">Ciudad</strong>
+                            <span>Barranquilla, Atlántico – Colombia</span>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-item-icon">🕐</div>
+                        <div>
+                            <strong style="color:white; display:block; margin-bottom:2px;">Horario de atención</strong>
+                            <span>Lunes a Sábado, 7:00 am – 6:00 pm</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form">
+                <h3>Solicitar Cotización</h3>
+                <div class="form-group">
+                    <label>Nombre completo</label>
+                    <input type="text" id="f-nombre" placeholder="Tu nombre completo">
+                </div>
+                <div class="form-group">
+                    <label>Teléfono / WhatsApp</label>
+                    <input type="tel" id="f-tel" placeholder="300 000 0000">
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Dirección</label>
+                        <input type="text" id="f-direccion" placeholder="Calle / Carrera / Av.">
+                    </div>
+                    <div class="form-group">
+                        <label>Barrio</label>
+                        <input type="text" id="f-barrio" placeholder="Nombre del barrio">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Tipo de inmueble</label>
+                    <div class="tipo-selector">
+                        <label class="tipo-option">
+                            <input type="radio" name="tipo" value="Casa"> 🏠 Casa
+                        </label>
+                        <label class="tipo-option">
+                            <input type="radio" name="tipo" value="Apartamento"> 🏢 Apartamento
+                        </label>
+                        <label class="tipo-option">
+                            <input type="radio" name="tipo" value="Oficina"> 💼 Oficina
+                        </label>
+                        <label class="tipo-option">
+                            <input type="radio" name="tipo" value="Bodega"> 🏭 Bodega
+                        </label>
+                        <label class="tipo-option">
+                            <input type="radio" name="tipo" value="Sector Industrial"> ⚙️ Industrial
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Servicio de interés</label>
+                    <select id="f-servicio">
+                        <option value="">Selecciona un servicio</option>
+                        <option>Fumigación General</option>
+                        <option>Control de Cucarachas</option>
+                        <option>Control de Roedores</option>
+                        <option>Control de Zancudos</option>
+                        <option>Control de Hormigas</option>
+                        <option>Control de Termitas</option>
+                        <option>Lavado de Tanques</option>
+                        <option>Desinfección de Ambientes</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Mensaje (opcional)</label>
+                    <textarea id="f-mensaje" placeholder="Cuéntanos sobre tu problema con plagas..."></textarea>
+                </div>
+                <button class="btn-submit" onclick="sendWhatsApp()">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="20" height="20" fill="white"
+                        style="flex-shrink:0">
+                        <path
+                            d="M24 4C13 4 4 13 4 24c0 3.6 1 7 2.7 10L4 44l10.3-2.7C17.1 43 20.5 44 24 44c11 0 20-9 20-20S35 4 24 4zm0 36c-3.1 0-6.1-.8-8.7-2.4l-.6-.4-6.1 1.6 1.6-5.9-.4-.6C8.8 30.1 8 27.1 8 24 8 15.2 15.2 8 24 8s16 7.2 16 16-7.2 16-16 16zm8.7-11.8c-.5-.2-2.8-1.4-3.2-1.5-.4-.2-.7-.2-1 .2-.3.5-1.2 1.5-1.5 1.8-.3.3-.5.3-1 .1-.5-.2-2-.7-3.8-2.3-1.4-1.2-2.3-2.8-2.6-3.2-.3-.5 0-.7.2-.9.2-.2.5-.5.7-.7.2-.2.3-.5.4-.8.1-.3 0-.6-.1-.8-.1-.2-1-2.5-1.4-3.4-.4-.9-.8-.8-1-.8h-.9c-.3 0-.8.1-1.2.6-.4.5-1.6 1.6-1.6 3.8s1.7 4.4 1.9 4.7c.2.3 3.3 5.1 8 7.1 1.1.5 2 .8 2.7 1 1.1.3 2.2.3 3 .2.9-.1 2.8-1.1 3.2-2.2.4-1.1.4-2 .3-2.2-.2-.2-.5-.3-1-.5z" />
+                    </svg>
+                    Enviar por WhatsApp
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-top">
+            <div class="footer-brand">
+                <span class="logo-text">Fumi<span style="color:var(--celeste)">Total</span> Servicios BQ</span>
+                <p class="footer-slogan">Protegemos lo que más importa</p>
+                <p>Empresa de fumigación y control de plagas en Barranquilla. Más de 15 años protegiendo hogares y
+                    empresas en el Caribe colombiano.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Servicios</h4>
+                <ul>
+                    <li><a href="#servicios">Control de cucarachas</a></li>
+                    <li><a href="#servicios">Control de roedores</a></li>
+                    <li><a href="#servicios">Control de zancudos</a></li>
+                    <li><a href="#servicios">Lavado de tanques</a></li>
+                    <li><a href="#servicios">Desinfección</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contacto</h4>
+                <ul>
+                    <li><a href="tel:3002945139">📱 300 294 5139</a></li>
+                    <li><a href="https://wa.me/573002945139" target="_blank">💬 WhatsApp</a></li>
+                    <li><a href="https://www.instagram.com/fumitotalserviciosbq" target="_blank">📷
+                            @fumitotalserviciosbq</a></li>
+                    <li><a href="#cobertura">📍 Barranquilla, Atlántico</a></li>
+                    <li><a href="#faq">❓ Preguntas frecuentes</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span>© 2025 FumiTotal Servicios BQ – Todos los derechos reservados</span>
+            <span>Diseño y desarrollo web – Barranquilla, Colombia</span>
+        </div>
+    </footer>
+
+    <script src="./javascript/main.js"></script>
+</body>
+
+</html>
