@@ -1411,6 +1411,18 @@ footer {
     animation: none;
 }
 
+.wa-float::after {
+    content: "Cotiza ahora";
+    position: absolute;
+    right: 70px;
+    background: #25D366;
+    color: white;
+    padding: 6px 10px;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
 @keyframes pulse {
 
     0%,
