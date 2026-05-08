@@ -132,20 +132,44 @@ header {
 .logo {
     display: flex;
     align-items: center;
+    gap: 0px;
+    background: linear-gradient(135deg, var(--dark), var(--dark2));
+    padding: 6px 14px 6px 8px;
+    border-radius: 12px;
+    text-decoration: none;
+    box-shadow: 0 2px 12px rgba(26, 175, 230, 0.2);
+    transition: box-shadow 0.2s;
 }
 
-.logo img {
-    height: 100px;
+.logo:hover {
+    box-shadow: 0 4px 20px rgba(26, 175, 230, 0.35);
+}
+
+/* Icono */
+.logo-icon-img {
+    height: 48px;
+    width: auto;
     object-fit: contain;
+    flex-shrink: 0;
 }
 
+/* Nombre */
+.logo-nombre-img {
+    height: 32px;
+    width: auto;
+    object-fit: contain;
+    /* Las letras son oscuras, las invertimos a blanco */
+    filter: invert(1) brightness(2);
+    margin-left: 4px;
+}
+
+/* Desktop visible */
 .logo-desktop {
-    display: block;
+    display: flex;
 }
 
 .logo-mobile {
     display: none;
-
 }
 
 @media (max-width: 768px) {
@@ -154,8 +178,16 @@ header {
     }
 
     .logo-mobile {
-        display: block;
-        height: 38px;
+        display: flex;
+    }
+
+    /* En mobile el logo queda más compacto */
+    .logo {
+        padding: 5px 8px;
+    }
+
+    .logo-icon-img {
+        height: 40px;
     }
 }
 
