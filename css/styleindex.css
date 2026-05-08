@@ -683,6 +683,76 @@ section {
     line-height: 1.6;
 }
 
+/* ================= SERVICIOS ================= */
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+}
+
+.service-card {
+    overflow: hidden;
+    border-radius: 20px;
+    background: #fff;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, .08);
+    transition: .3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-8px);
+}
+
+.service-image {
+    height: 220px;
+    overflow: hidden;
+}
+
+.service-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5% 5% 0 0;
+    transition: .4s ease;
+}
+
+.service-card:hover img {
+    transform: scale(1.05);
+    border-radius: 5% 5% 0 0;
+}
+
+.card-content {
+    padding: 25px;
+}
+
+.card-content h3 {
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+    color: var(--primary);
+}
+
+.card-content p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+    color: #555;
+}
+
+.service-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.service-list li {
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+    color: #444;
+}
+
+.service-list li:last-child {
+    border-bottom: none;
+}
+
 /* ─── PRECIOS ─── */
 .precios {
     background: white;
