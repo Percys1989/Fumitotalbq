@@ -11,7 +11,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;900&family=Nunito:wght@400;500;600;700&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="./css/styleindex.css">
+    <link rel="stylesheet" href="./assets/css/styleindex.css">
     <base href="./">
 </head>
 
@@ -21,20 +21,17 @@
     <a class="wa-float"
         href="https://wa.me/573002945139?text=Hola%2C%20quiero%20cotizar%20un%20servicio%20de%20fumigación"
         target="_blank" title="Escríbenos por WhatsApp">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="30" height="30" fill="white">
-            <path
-                d="M24 4C13 4 4 13 4 24c0 3.6 1 7 2.7 10L4 44l10.3-2.7C17.1 43 20.5 44 24 44c11 0 20-9 20-20S35 4 24 4zm0 36c-3.1 0-6.1-.8-8.7-2.4l-.6-.4-6.1 1.6 1.6-5.9-.4-.6C8.8 30.1 8 27.1 8 24 8 15.2 15.2 8 24 8s16 7.2 16 16-7.2 16-16 16zm8.7-11.8c-.5-.2-2.8-1.4-3.2-1.5-.4-.2-.7-.2-1 .2-.3.5-1.2 1.5-1.5 1.8-.3.3-.5.3-1 .1-.5-.2-2-.7-3.8-2.3-1.4-1.2-2.3-2.8-2.6-3.2-.3-.5 0-.7.2-.9.2-.2.5-.5.7-.7.2-.2.3-.5.4-.8.1-.3 0-.6-.1-.8-.1-.2-1-2.5-1.4-3.4-.4-.9-.8-.8-1-.8h-.9c-.3 0-.8.1-1.2.6-.4.5-1.6 1.6-1.6 3.8s1.7 4.4 1.9 4.7c.2.3 3.3 5.1 8 7.1 1.1.5 2 .8 2.7 1 1.1.3 2.2.3 3 .2.9-.1 2.8-1.1 3.2-2.2.4-1.1.4-2 .3-2.2-.2-.2-.5-.3-1-.5z" />
-        </svg>
+        <span data-wa-icon data-size="30" data-fill="white"></span>
     </a>
 
     <!-- HEADER -->
     <header id="header">
         <a class="logo" href="#">
             <!-- Desktop: icono + nombre lado a lado -->
-            <img src="./imagenes/Logo-icon.png" alt="FumiTotal" class="logo-desktop logo-icon-img">
-            <img src="./imagenes/Logo-nombre.png" alt="FumiTotal Servicios BQ" class="logo-desktop logo-nombre-img">
+            <img src="./assets/imagenes/Logo-icon.png" alt="FumiTotal" class="logo-desktop logo-icon-img">
+            <img src="./assets/imagenes/Logo-nombre.png" alt="FumiTotal Servicios BQ" class="logo-desktop logo-nombre-img">
             <!-- Mobile: solo icono -->
-            <img src="./imagenes/Logo-icon.png" alt="FumiTotal" class="logo-mobile logo-icon-img">
+            <img src="./assets/imagenes/Logo-icon.png" alt="FumiTotal" class="logo-mobile logo-icon-img">
         </a>
         <nav>
             <a href="#servicios">Servicios</a>
@@ -45,11 +42,7 @@
             <a class="btn-wa"
                 href="https://wa.me/573002945139?text=Hola%2C%20quiero%20cotizar%20un%20servicio%20de%20fumigación"
                 target="_blank">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="16" height="16" fill="white"
-                    style="flex-shrink:0">
-                    <path
-                        d="M24 4C13 4 4 13 4 24c0 3.6 1 7 2.7 10L4 44l10.3-2.7C17.1 43 20.5 44 24 44c11 0 20-9 20-20S35 4 24 4zm0 36c-3.1 0-6.1-.8-8.7-2.4l-.6-.4-6.1 1.6 1.6-5.9-.4-.6C8.8 30.1 8 27.1 8 24 8 15.2 15.2 8 24 8s16 7.2 16 16-7.2 16-16 16zm8.7-11.8c-.5-.2-2.8-1.4-3.2-1.5-.4-.2-.7-.2-1 .2-.3.5-1.2 1.5-1.5 1.8-.3.3-.5.3-1 .1-.5-.2-2-.7-3.8-2.3-1.4-1.2-2.3-2.8-2.6-3.2-.3-.5 0-.7.2-.9.2-.2.5-.5.7-.7.2-.2.3-.5.4-.8.1-.3 0-.6-.1-.8-.1-.2-1-2.5-1.4-3.4-.4-.9-.8-.8-1-.8h-.9c-.3 0-.8.1-1.2.6-.4.5-1.6 1.6-1.6 3.8s1.7 4.4 1.9 4.7c.2.3 3.3 5.1 8 7.1 1.1.5 2 .8 2.7 1 1.1.3 2.2.3 3 .2.9-.1 2.8-1.1 3.2-2.2.4-1.1.4-2 .3-2.2-.2-.2-.5-.3-1-.5z" />
-                </svg> WhatsApp
+                <span data-wa-icon data-size="16" data-fill="white"></span> WhatsApp
             </a>
         </nav>
         <div class="hamburger" id="hamburger" onclick="toggleMenu()">
@@ -65,11 +58,7 @@
         <a href="#faq" onclick="closeMenu()">FAQ</a>
         <a href="#contacto" onclick="closeMenu()">Contacto</a>
         <a href="https://wa.me/573002945139" target="_blank" style="color:#25D366;">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="16" height="16" fill="#25D366"
-                style="flex-shrink:0">
-                <path
-                    d="M24 4C13 4 4 13 4 24c0 3.6 1 7 2.7 10L4 44l10.3-2.7C17.1 43 20.5 44 24 44c11 0 20-9 20-20S35 4 24 4zm0 36c-3.1 0-6.1-.8-8.7-2.4l-.6-.4-6.1 1.6 1.6-5.9-.4-.6C8.8 30.1 8 27.1 8 24 8 15.2 15.2 8 24 8s16 7.2 16 16-7.2 16-16 16zm8.7-11.8c-.5-.2-2.8-1.4-3.2-1.5-.4-.2-.7-.2-1 .2-.3.5-1.2 1.5-1.5 1.8-.3.3-.5.3-1 .1-.5-.2-2-.7-3.8-2.3-1.4-1.2-2.3-2.8-2.6-3.2-.3-.5 0-.7.2-.9.2-.2.5-.5.7-.7.2-.2.3-.5.4-.8.1-.3 0-.6-.1-.8-.1-.2-1-2.5-1.4-3.4-.4-.9-.8-.8-1-.8h-.9c-.3 0-.8.1-1.2.6-.4.5-1.6 1.6-1.6 3.8s1.7 4.4 1.9 4.7c.2.3 3.3 5.1 8 7.1 1.1.5 2 .8 2.7 1 1.1.3 2.2.3 3 .2.9-.1 2.8-1.1 3.2-2.2.4-1.1.4-2 .3-2.2-.2-.2-.5-.3-1-.5z" />
-            </svg> WhatsApp
+            <span data-wa-icon data-size="16" data-fill="#25D366"></span> WhatsApp
         </a>
     </div>
 
@@ -86,9 +75,9 @@
 
         <!-- SLIDER (FONDO) -->
         <div class="hero-slider" id="heroSlider">
-            <div class="hero-slide active" style="background-image:url('./imagenes/hero-general.png');"></div>
-            <div class="hero-slide" style="background-image:url('./imagenes/hero-hogar.png');"></div>
-            <div class="hero-slide" style="background-image:url('./imagenes/hero-empresas.png');"></div>
+            <div class="hero-slide active" style="background-image:url('./assets/imagenes/hero-general.png');"></div>
+            <div class="hero-slide" style="background-image:url('./assets/imagenes/hero-hogar.png');"></div>
+            <div class="hero-slide" style="background-image:url('./assets/imagenes/hero-empresas.png');"></div>
         </div>
 
         <!-- OVERLAY -->
@@ -114,11 +103,7 @@
                 <a class="btn-primary"
                     href="https://wa.me/573002945139?text=Hola%2C%20quiero%20cotizar%20un%20servicio%20de%20fumigación"
                     target="_blank">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="18" height="18" fill="white"
-                        style="flex-shrink:0">
-                        <path
-                            d="M24 4C13 4 4 13 4 24c0 3.6 1 7 2.7 10L4 44l10.3-2.7C17.1 43 20.5 44 24 44c11 0 20-9 20-20S35 4 24 4zm0 36c-3.1 0-6.1-.8-8.7-2.4l-.6-.4-6.1 1.6 1.6-5.9-.4-.6C8.8 30.1 8 27.1 8 24 8 15.2 15.2 8 24 8s16 7.2 16 16-7.2 16-16 16zm8.7-11.8c-.5-.2-2.8-1.4-3.2-1.5-.4-.2-.7-.2-1 .2-.3.5-1.2 1.5-1.5 1.8-.3.3-.5.3-1 .1-.5-.2-2-.7-3.8-2.3-1.4-1.2-2.3-2.8-2.6-3.2-.3-.5 0-.7.2-.9.2-.2.5-.5.7-.7.2-.2.3-.5.4-.8.1-.3 0-.6-.1-.8-.1-.2-1-2.5-1.4-3.4-.4-.9-.8-.8-1-.8h-.9c-.3 0-.8.1-1.2.6-.4.5-1.6 1.6-1.6 3.8s1.7 4.4 1.9 4.7c.2.3 3.3 5.1 8 7.1 1.1.5 2 .8 2.7 1 1.1.3 2.2.3 3 .2.9-.1 2.8-1.1 3.2-2.2.4-1.1.4-2 .3-2.2-.2-.2-.5-.3-1-.5z" />
-                    </svg> Cotizar por WhatsApp
+                    <span data-wa-icon data-size="18" data-fill="white"></span> Cotizar por WhatsApp
                 </a>
                 <a class="btn-outline" href="#servicios">Ver servicios →</a>
             </div>
@@ -146,11 +131,7 @@
         <a class="btn-wa-large"
             href="https://wa.me/573002945139?text=Hola%2C%20quiero%20cotizar%20un%20servicio%20de%20fumigación"
             target="_blank">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="18" height="18" fill="white"
-                style="flex-shrink:0">
-                <path
-                    d="M24 4C13 4 4 13 4 24c0 3.6 1 7 2.7 10L4 44l10.3-2.7C17.1 43 20.5 44 24 44c11 0 20-9 20-20S35 4 24 4zm0 36c-3.1 0-6.1-.8-8.7-2.4l-.6-.4-6.1 1.6 1.6-5.9-.4-.6C8.8 30.1 8 27.1 8 24 8 15.2 15.2 8 24 8s16 7.2 16 16-7.2 16-16 16zm8.7-11.8c-.5-.2-2.8-1.4-3.2-1.5-.4-.2-.7-.2-1 .2-.3.5-1.2 1.5-1.5 1.8-.3.3-.5.3-1 .1-.5-.2-2-.7-3.8-2.3-1.4-1.2-2.3-2.8-2.6-3.2-.3-.5 0-.7.2-.9.2-.2.5-.5.7-.7.2-.2.3-.5.4-.8.1-.3 0-.6-.1-.8-.1-.2-1-2.5-1.4-3.4-.4-.9-.8-.8-1-.8h-.9c-.3 0-.8.1-1.2.6-.4.5-1.6 1.6-1.6 3.8s1.7 4.4 1.9 4.7c.2.3 3.3 5.1 8 7.1 1.1.5 2 .8 2.7 1 1.1.3 2.2.3 3 .2.9-.1 2.8-1.1 3.2-2.2.4-1.1.4-2 .3-2.2-.2-.2-.5-.3-1-.5z" />
-            </svg> Escribir por WhatsApp
+            <span data-wa-icon data-size="18" data-fill="white"></span> Escribir por WhatsApp
         </a>
     </div>
 
@@ -296,7 +277,7 @@
                 <!-- AIRES -->
                 <article class="card service-card">
                     <div class="service-image">
-                        <img src="./imagenes/Mantenimiento_aire.png" alt="Mantenimiento de aires acondicionados">
+                        <img src="./assets/imagenes/Mantenimiento_aire.png" alt="Mantenimiento de aires acondicionados" loading="lazy">
                     </div>
 
                     <div class="card-content">
@@ -320,7 +301,7 @@
                 <!-- LIMPIEZA -->
                 <article class="card service-card">
                     <div class="service-image">
-                        <img src="./imagenes/Limpieza_profunda.png" alt="Servicio de limpieza profunda">
+                        <img src="./assets/imagenes/Limpieza_profunda.png" alt="Servicio de limpieza profunda" loading="lazy">
                     </div>
 
                     <div class="card-content">
@@ -344,7 +325,7 @@
                 <!-- OBRAS -->
                 <article class="card service-card">
                     <div class="service-image">
-                        <img src="./imagenes/Obras_civiles.png" alt="Obras civiles y reparaciones">
+                        <img src="./assets/imagenes/Obras_civiles.png" alt="Obras civiles y reparaciones" loading="lazy">
                     </div>
 
                     <div class="card-content">
@@ -368,7 +349,7 @@
                 <!-- JARDINERÍA -->
                 <article class="card service-card">
                     <div class="service-image">
-                        <img src="./imagenes/Jardineria_profesional.png" alt="Servicio de jardinería">
+                        <img src="./assets/imagenes/Jardineria_profesional.png" alt="Servicio de jardinería" loading="lazy">
                     </div>
 
                     <div class="card-content">
@@ -392,7 +373,7 @@
                 <!-- MULTISERVICIOS -->
                 <article class="card service-card">
                     <div class="service-image">
-                        <img src="./imagenes/Multiservicios.png" alt="Servicios múltiples">
+                        <img src="./assets/imagenes/Multiservicios.png" alt="Servicios múltiples" loading="lazy">
                     </div>
 
                     <div class="card-content">
@@ -416,7 +397,7 @@
                 <!-- CÁMARAS -->
                 <article class="card service-card">
                     <div class="service-image">
-                        <img src="./imagenes/Camaras_seguridad.png" alt="Instalación de cámaras de seguridad">
+                        <img src="./assets/imagenes/Camaras_seguridad.png" alt="Instalación de cámaras de seguridad" loading="lazy">
                     </div>
 
                     <div class="card-content">
@@ -440,7 +421,7 @@
                 <!-- ASEO -->
                 <article class="card service-card">
                     <div class="service-image">
-                        <img src="./imagenes/Personal_aseo.png" alt="Personal de aseo">
+                        <img src="./assets/imagenes/Personal_aseo.png" alt="Personal de aseo">
                     </div>
 
                     <div class="card-content">
@@ -784,8 +765,8 @@
                         <div class="contact-item-icon">📷</div>
                         <div>
                             <strong style="color:white; display:block; margin-bottom:2px;">Instagram</strong>
-                            <a href="https://www.instagram.com/fumitotalserviciosbq" target="_blank"
-                                style="color:var(--celeste);">@fumitotalserviciosbq</a>
+                            <a href="https://www.instagram.com/fumitotalbq" target="_blank"
+                                style="color:var(--celeste);">fumitotalbq</a>
                         </div>
                     </div>
                     <div class="contact-item">
@@ -807,20 +788,20 @@
             <div class="contact-form">
                 <h3>Solicitar Cotización</h3>
                 <div class="form-group">
-                    <label>Nombre completo</label>
+                    <label for="f-nombre">Nombre completo</label>
                     <input type="text" id="f-nombre" placeholder="Tu nombre completo">
                 </div>
                 <div class="form-group">
-                    <label>Teléfono / WhatsApp</label>
+                    <label for="f-tel">Teléfono / WhatsApp</label>
                     <input type="tel" id="f-tel" placeholder="300 000 0000">
                 </div>
                 <div class="form-row">
                     <div class="form-group">
-                        <label>Dirección</label>
+                        <label for="f-direccion">Dirección</label>
                         <input type="text" id="f-direccion" placeholder="Calle / Carrera / Av.">
                     </div>
                     <div class="form-group">
-                        <label>Barrio</label>
+                        <label for="f-barrio">Barrio</label>
                         <input type="text" id="f-barrio" placeholder="Nombre del barrio">
                     </div>
                 </div>
@@ -845,7 +826,7 @@
                     </div>
                 </div>
                 <div class="form-group">
-                    <label>Servicio de interés</label>
+                    <label for="f-servicio">Servicio de interés</label>
                     <select id="f-servicio">
                         <option value="">Selecciona un servicio</option>
                         <option>Fumigación General</option>
@@ -859,15 +840,11 @@
                     </select>
                 </div>
                 <div class="form-group">
-                    <label>Mensaje (opcional)</label>
+                    <label for="f-mensaje">Mensaje (opcional)</label>
                     <textarea id="f-mensaje" placeholder="Cuéntanos sobre tu problema con plagas..."></textarea>
                 </div>
                 <button class="btn-submit" onclick="sendWhatsApp()">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="20" height="20" fill="white"
-                        style="flex-shrink:0">
-                        <path
-                            d="M24 4C13 4 4 13 4 24c0 3.6 1 7 2.7 10L4 44l10.3-2.7C17.1 43 20.5 44 24 44c11 0 20-9 20-20S35 4 24 4zm0 36c-3.1 0-6.1-.8-8.7-2.4l-.6-.4-6.1 1.6 1.6-5.9-.4-.6C8.8 30.1 8 27.1 8 24 8 15.2 15.2 8 24 8s16 7.2 16 16-7.2 16-16 16zm8.7-11.8c-.5-.2-2.8-1.4-3.2-1.5-.4-.2-.7-.2-1 .2-.3.5-1.2 1.5-1.5 1.8-.3.3-.5.3-1 .1-.5-.2-2-.7-3.8-2.3-1.4-1.2-2.3-2.8-2.6-3.2-.3-.5 0-.7.2-.9.2-.2.5-.5.7-.7.2-.2.3-.5.4-.8.1-.3 0-.6-.1-.8-.1-.2-1-2.5-1.4-3.4-.4-.9-.8-.8-1-.8h-.9c-.3 0-.8.1-1.2.6-.4.5-1.6 1.6-1.6 3.8s1.7 4.4 1.9 4.7c.2.3 3.3 5.1 8 7.1 1.1.5 2 .8 2.7 1 1.1.3 2.2.3 3 .2.9-.1 2.8-1.1 3.2-2.2.4-1.1.4-2 .3-2.2-.2-.2-.5-.3-1-.5z" />
-                    </svg>
+                    <span data-wa-icon data-size="20" data-fill="white"></span>
                     Enviar por WhatsApp
                 </button>
             </div>
@@ -901,23 +878,20 @@
                     </a>
                     <a href="https://wa.me/573002945139" target="_blank" class="footer-social-btn footer-social-wa"
                         title="WhatsApp">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="26" height="26" fill="white">
-                            <path
-                                d="M24 4C13 4 4 13 4 24c0 3.6 1 7 2.7 10L4 44l10.3-2.7C17.1 43 20.5 44 24 44c11 0 20-9 20-20S35 4 24 4zm0 36c-3.1 0-6.1-.8-8.7-2.4l-.6-.4-6.1 1.6 1.6-5.9-.4-.6C8.8 30.1 8 27.1 8 24 8 15.2 15.2 8 24 8s16 7.2 16 16-7.2 16-16 16zm8.7-11.8c-.5-.2-2.8-1.4-3.2-1.5-.4-.2-.7-.2-1 .2-.3.5-1.2 1.5-1.5 1.8-.3.3-.5.3-1 .1-.5-.2-2-.7-3.8-2.3-1.4-1.2-2.3-2.8-2.6-3.2-.3-.5 0-.7.2-.9.2-.2.5-.5.7-.7.2-.2.3-.5.4-.8.1-.3 0-.6-.1-.8-.1-.2-1-2.5-1.4-3.4-.4-.9-.8-.8-1-.8h-.9c-.3 0-.8.1-1.2.6-.4.5-1.6 1.6-1.6 3.8s1.7 4.4 1.9 4.7c.2.3 3.3 5.1 8 7.1 1.1.5 2 .8 2.7 1 1.1.3 2.2.3 3 .2.9-.1 2.8-1.1 3.2-2.2.4-1.1.4-2 .3-2.2-.2-.2-.5-.3-1-.5z" />
-                        </svg>
+                        <span data-wa-icon data-size="26" data-fill="white"></span>
                     </a>
-                    <a href="https://www.instagram.com/fumitotalserviciosbq" target="_blank"
+                    <a href="https://www.instagram.com/fumitotalbq" target="_blank"
                         class="footer-social-btn footer-social-ig" title="Instagram">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="26" height="26" fill="white">
                             <path
-                                d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                                d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.058 1.644-.07 4.85-.07zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zm0 10.162a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z" />
                         </svg>
                     </a>
                 </div>
                 <div class="footer-social-labels">
                     <a href="tel:3002945139">300 294 5139</a>
                     <a href="https://wa.me/573002945139" target="_blank">WhatsApp</a>
-                    <a href="https://www.instagram.com/fumitotalserviciosbq" target="_blank">@fumitotalserviciosbq</a>
+                    <a href="https://www.instagram.com/fumitotalbq" target="_blank">@fumitotalserviciosbq</a>
                 </div>
                 <ul class="footer-extra-links">
                     <li><a href="#cobertura">📍 Barranquilla, Atlántico</a></li>
@@ -930,8 +904,11 @@
             <span>Diseño y desarrollo web – Barranquilla, Colombia</span>
         </div>
     </footer>
-
-    <script src="./javascript/main.js"></script>
+    <!-- SCROLL TO TOP -->
+    <button class="scroll-top" id="scrollTop" title="Volver arriba" aria-label="Volver arriba">
+        &#8679;
+    </button>
+    <script src="./assets/javascript/main.js"></script>
 </body>
 
 </html>

@@ -1655,6 +1655,38 @@ footer {
     font-size: 15px;
 }
 
+.scroll-top {
+    position: fixed;
+    bottom: 90px;
+    /* encima del botón de WhatsApp */
+    right: 24px;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: var(--celeste);
+    color: white;
+    font-size: 24px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    z-index: 999;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.scroll-top.visible {
+    opacity: 1;
+    visibility: visible;
+}
+
+.scroll-top:hover {
+    transform: translateY(-3px);
+}
+
 /* ─── RESPONSIVE ─── */
 @media (max-width: 768px) {
     nav {
